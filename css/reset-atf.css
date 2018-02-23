@@ -1,0 +1,34 @@
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: .85em;
+  color: ghostwhite;
+}
+
+/* Flex-action */
+#atf {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: space-between;
+  /* Formating */
+  background-color: black;
+  background-image: url("pizza.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+strong {
+  font-size: 1.6em;
+}
+
+a[href="tel:+38731761844"]{
+  font-size: 1.35em;
+}
