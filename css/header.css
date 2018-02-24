@@ -7,20 +7,12 @@ header {
 header a {
   opacity: .65;
   color: inherit;
-  margin-left: 15px;
+  margin: 18px;
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 280ms;
+  font-size: 1.1rem;
 }
 header a:hover {
   opacity: .95;
-}
-
-#sing-in {
-  display: flex;
-  flex-flow: column;
-  margin-right: 10px;
-}
-
-p {
-  margin: 5px;
-  font-size: .62rem;
 }
